@@ -1,10 +1,16 @@
 # Python-Arduino-Weather-Station
 
-This project is a work in progress. I am currently waiting for parts to arrive in the mail. Below is the status of the Arduino and the Python side as well as command line instructions.
+This project is a work in progress. I am currently waiting for parts to arrive in the mail.
 
-I made this project to gain more experience with real time data and Python. The project consist of an Arduino, stationed outside within Wifi range, taking a wind speed sample over an interval and updating the database. I used the Django web framework to set up a model for the Weather Data, for the Controller to update the View. Currently the View is plain containing just the latest wind speed. 
+I made this project to gain more experience with in situ, real time data and Python. The project consist of an Arduino, stationed outside within Wi-Fi range, taking a wind speed sample over an interval of time and updating the database. I used the Django web framework to set up a model for the Weather Data, for the Controller to update the View. Currently the View is plain containing just the latest wind speed. 
 
-After the Arduino is set to report accurate wind speed data and can successfully update the database, I plan to make asthetic modifications to the View, then add more weather sensors to the Arduino, and make the according modifications to the database and framework.
+After the Arduino is set to report accurate wind speed data and can successfully update the database, I plan to make asthetic modifications to the View however a farmer may find it most useful. Then I may add more weather sensors to the Arduino, and make the according modifications to the database and framework.
+
+This project could be useful to farmers interested in saving time and travel. Real time, in situ data like wind speed can let farmers know if it is a good time or day to spray chemical, or if it is just too windy. Another relevant addition I may add is a rainfall sensor. Sometimes it rains overnight, during harvest, and the farmer has to drive out the next morning to check and see if their field recieved enough rainfall to delay the harvest. Having real time, in situ precip data can let the farmer decide whether to harvest that day, wait until the afternoon so the field can dry, or let the hired hands know it's a shop day. They could do this from their home computer or mobile phone at any time.
+
+The disadvantage to this project is that it is restricted to Wi-Fi range. If the project proves worth while, I would consider researching to transmit data by SMS messaging then figure out how to handle that data into the database.
+
+Below is the status of the Arduino and the Python framework, as well as command line instructions.
 
 Arduino
 ==================
