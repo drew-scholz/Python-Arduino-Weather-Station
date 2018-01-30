@@ -9,15 +9,15 @@ After the Arduino is set to report accurate wind speed data and can successfully
 Arduino
 ==================
 Summary:
-  - Currently produces random integers in 2 minute intervals to represent wind speed data
+- Currently produces random integers in 2 minute intervals to represent wind speed data
   
 Libraries:
-  - TimerOne for the Interupt Service Routine
-  - MyPrintf for a C-like print option that uses Flash memory
+- TimerOne for the Interupt Service Routine
+- MyPrintf for a C-like print option that uses Flash memory
   
 Parts coming in mail:
-  - Wifi shield
-  - Differential pressure sensor to read wind speed
+- Wifi shield
+- Differential pressure sensor to read wind speed
   
  Python side
  =================
