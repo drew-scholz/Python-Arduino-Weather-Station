@@ -32,23 +32,23 @@ Parts coming in mail:
   You will need to set up your own virtual environment
   
   run server:
-    env_weatherStation\scripts\activate
-	  cd ./weatherStation
-	  python manage.py runserver
+  - env_weatherStation\scripts\activate
+  - cd ./weatherStation
+  - python manage.py runserver
     
-  view page:	
-	  http://127.0.0.1:8000/
+  view page:
+  - http://127.0.0.1:8000/
     
   change models:
-	  python manage.py makemigrations
-	  python manage.py migrate
+  - python manage.py makemigrations
+  - python manage.py migrate
     
   run shell and modify main model:
-	  python manage.py shell
-	  from weatherData.models import Wind
-	  w = Wind(stationID="scholz_farm")
-	  w.save()
-	  w.id
-	  w.speed
-	  w.stationID  
+  - python manage.py shell
+  - from weatherData.models import Wind
+  - w = Wind(stationID="scholz_farm")
+  - w.save()
+  - w.id
+  - w.speed
+  - w.stationID  
     
