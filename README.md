@@ -10,9 +10,11 @@ Arduino
 ==================
 Summary:
   - Currently produces random integers in 2 minute intervals to represent wind speed data
+  
 Libraries:
   - TimerOne for the Interupt Service Routine
   - MyPrintf for a C-like print option that uses Flash memory
+  
 Parts coming in mail:
   - Wifi shield
   - Differential pressure sensor to read wind speed
