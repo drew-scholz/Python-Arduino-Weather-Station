@@ -10,7 +10,7 @@ This project could be useful to farmers interested in saving time and travel. Re
 
 The disadvantage to this project is that it is restricted to Wi-Fi range. If the project proves worth while, I would consider researching to transmit data by SMS messaging then figure out how to handle that data into the database.
 
-Below is the status of the Arduino and the Python framework, as well as command line instructions.
+Below is the status of the Arduino and the Python framework, as well as shell instructions.
 
 Arduino
 ==================
@@ -35,7 +35,7 @@ Parts coming in mail:
   - There is a Weather Data app with a Wind model that has 3 attributes: speed, direction, station ID
   - The view currently shows the Wind speed for the model with the station ID equal to "scholz_farm"
   
-  Command line instructions
+  Shell instructions
   ===========================
   You will need to set up your own virtual environment
   
